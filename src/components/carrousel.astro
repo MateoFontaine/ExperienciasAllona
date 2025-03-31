@@ -1,0 +1,70 @@
+---
+const images = [
+  "./1.jpg",
+  "./10.jpg",
+  "./9.jpg",
+  "./6.jpg",
+  "./7.jpg",
+  "./8.jpg",
+  "./12.jpg",
+  "./11.jpg",
+  "./3.jpg"
+];
+---
+<style>
+    .carousel {
+      position: relative;
+      width: 90vw;
+      height: 80vh;
+      overflow: hidden;
+    }
+  
+    .carousel-images {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .carousel-images img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      border-radius: 10px;
+    }
+  
+    .carousel-images img.active {
+      opacity: 1;
+    }
+
+    .centrado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  </style>
+  <div class="centrado">
+  <div class="carousel">
+    <div class="carousel-images" id="carousel">
+      {images.map((src, index) => (
+        <img src={src} alt="Imagen del carrusel" class={index === 0 ? "active" : ""} loading="lazy" />
+      ))}
+    </div>
+  </div>
+</div>
+  
+  <script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll("#carousel img");
+    const totalImages = images.length;
+  
+    function nextImage() {
+      images[currentIndex].classList.remove("active");
+      currentIndex = (currentIndex + 1) % totalImages;
+      images[currentIndex].classList.add("active");
+    }
+  
+    setInterval(nextImage, 3000); // Cambia de imagen cada 3 segundos
+  </script>

@@ -1,0 +1,75 @@
+<style>
+    .form-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    input, button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  
+    button {
+      background-color: #25D366;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #1ebc5b;
+    }
+  
+    @media (max-width: 768px) {
+      .form-container{
+          flex-wrap: wrap;
+          margin: 1rem;
+      }
+    }
+  </style>
+  
+  <div class="form-container">
+    <input type="text" id="name" placeholder="Tu Nombre" />
+    <input type="number" id="people" placeholder="Cantidad de personas" />
+    <input type="date" id="date" />
+    <button id="sendBtn">Enviar WhatsApp</button>
+  </div>
+  
+  <script>
+    // Asegurarse de que el DOM esté completamente cargado antes de ejecutar cualquier cosa
+    document.addEventListener('DOMContentLoaded', function () {
+      const sendButton = document.getElementById('sendBtn');
+      
+      sendButton.addEventListener('click', function () {
+        const name = (document.getElementById('name') as HTMLInputElement).value;
+        const people = (document.getElementById('people') as HTMLInputElement).value;
+        const date = (document.getElementById('date') as HTMLInputElement).value;
+  
+        if (name && people && date) {
+          const message = `¡Hola! Mi nombre es ${name}, quiero hacer una reserva para ${people} persona(s) para el día ${date}.`;
+  
+          // URL codificada para abrir WhatsApp
+          const whatsappUrl = `https://wa.me/2267533950?text=${encodeURIComponent(message)}`;
+  
+          // Redirige al usuario al enlace de WhatsApp
+          window.open(whatsappUrl, '_blank');
+        } else {
+          alert('Por favor, completa todos los campos.');
+        }
+      });
+    });
+  </script>
+  
