@@ -12,22 +12,28 @@ export default function Experiences() {
 
   const experiences = [
     {
-      title: "Ceramica",
-      description: "Un rincón donde el barro cobra vida entre manos y fuego.",
-      image: "/images/ceramica.jpeg?height=300&width=400",
-      icon: <Mountain className="w-6 h-6" />,
+      title: "Pez",
+      description: "",
+      image: "/images/pez.jpeg?height=300&width=400",
+      icon: "",
     },
     {
-      title: "Alfareria",
-      description: "Donde el barro danza sobre el torno y se vuelve arte",
-      image: "/images/torno.jpeg?height=300&width=400",
-      icon: <Camera className="w-6 h-6" />,
+      title: "Rana",
+      description: "",
+      image: "/images/rana.jpeg?height=300&width=400",
+      icon: "",
     },
     {
-      title: "Pintura",
-      description: "Un taller para crear, mezclar y pintar sin límites.",
-      image: "/images/pintura.jpeg?height=300&width=400",
-      icon: <Utensils className="w-6 h-6" />,
+      title: "Armadillo",
+      description: "",
+      image: "/images/armadillo.jpeg?height=300&width=400",
+      icon: "",
+    },
+    {
+      title: "Lagarto",
+      description: "",
+      image: "/images/lagarto.jpeg?height=300&width=400",
+      icon: "",
     }
   ]
 
@@ -45,14 +51,10 @@ export default function Experiences() {
     <section id="experiencias" className="py-20 bg-stone-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <Badge className="bg-amber-100 text-amber-800 mb-4">Nuestras Experiencias</Badge>
-          <h2 className="text-4xl font-bold text-stone-800 mb-6">Respira ARTE</h2>
-          <p className="text-stone-600 text-lg max-w-2xl mx-auto">
-            Descubre todas las actividades y experiencias que tenemos preparadas para ti
-          </p>
+          <h2 className="text-4xl font-bold text-stone-800 mb-6">Esencias</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {experiences.map((experience, index) => (
             <Card key={index} className="group hover:shadow-xl transition-shadow duration-300 overflow-hidden">
               <div className="relative">

@@ -13,6 +13,7 @@ import TestimonialsCarousel from "@/components/sections/TestimonialsCarousel"
 import Contact from "@/components/sections/Contact"
 import Footer from "@/components/sections/Footer"
 import WhatsAppWidget from "@/components/WhatsAppWidget"
+import Nombres from "@/components/sections/nombres"
 
 export default function ExperienciasAllona() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -32,6 +33,7 @@ export default function ExperienciasAllona() {
 
 
   const galleryImages = [
+    "/images/puerta.jpeg?height=600&width=1200",
     "/images/1.jpg?height=600&width=1200",
     "/images/2.jpg?height=600&width=1200",
     "/images/3.jpg?height=600&width=1200",
@@ -119,6 +121,7 @@ export default function ExperienciasAllona() {
       <About />
       <AboutOroscco />
       <Experiences />
+      <Nombres />
 
       <Rooms handleBooking={handleBooking} />
 

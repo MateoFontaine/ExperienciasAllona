@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Users, Bed, Bath, Eye, Maximize, X } from "lucide-react"
 import { useState } from "react"
 
+
 interface RoomsProps {
   handleBooking: (type: string, details?: any) => void
 }
@@ -25,31 +26,36 @@ export default function Rooms({ handleBooking }: RoomsProps) {
     {
       title: "Pez",
       description:
-        "Nuestra suite familiar es el espacio perfecto para familias que buscan comodidad y amplitud. Con 45m² de superficie, cuenta con dos ambientes separados que garantizan privacidad y confort para todos los miembros de la familia.",
+        "Inspirada en la obra de Beatriz Orosco, esta habitación rinde homenaje a su universo de peces coloridos, símbolo de libertad, fluidez y vida. Cada detalle está pensado para transmitir esa misma sensación de movimiento sereno y armonía visual que evocan sus creaciones. Los tonos suaves, la luz natural que se filtra por las cortinas y la calidez de los materiales generan un entorno acogedor, ideal para relajarse y reconectar. Como en las obras de Orosco, donde el color y la forma dialogan en equilibrio, esta habitación invita a sumergirse en una experiencia estética y placentera.",
       people: "2 personas",
       features: [
-        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas dobles" },
+        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas simple o una doble" },
         { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño privado" },
         { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Vista al jardín" },
-        { icon: <Maximize className="w-5 h-5 text-amber-800" />, text: "45m² de espacio" },
       ],
       amenities: [
-        "Desayuno continental para toda la familia",
+        "Cama hecha con sábanas de algodón y almohadas mullidas",
+        "Toallas de cuerpo y manos",
+        "Secador de pelo",
+        "Shampoo, acondicionador y jabón líquido de cortesía",
+        "Calefacción por radiador",
+        "Baño privado con ducha",
+        "Cerradura electrónica con código personalizado",
+        "Vista al limonero del jardín",
         "WiFi gratuito de alta velocidad",
-        "Área de juegos para niños",
-        "Acceso a todas las actividades familiares",
+        "Secado de pelo",
       ],
       images: [
         "/images/13.jpeg?height=300&width=300",
-        "/images/14.jpeg?height=300&width=300",
+        "/images/1-camaPlacard.jpeg?height=300&width=300",
         "/images/15.jpeg?height=300&width=300",
-        "/images/15.jpeg?height=300&width=300",
+        "/images/1-bano.jpeg?height=300&width=300",
       ],
     },
     {
       title: "Rana",
       description:
-        "Perfecta para parejas que buscan un ambiente romántico y acogedor. Con 30m² de elegancia y confort, esta habitación ofrece la combinación ideal entre intimidad y lujo, con vistas espectaculares desde su balcón privado.",
+        "Esta habitación toma su nombre en homenaje a una artista plástica que encontraba en las ranas su inspiración constante. Un símbolo de transformación, naturaleza y serenidad, que se refleja en cada detalle del espacio. Al igual que en las obras de Orozco, donde la fuerza de lo humano se expresa en los trazos, esta habitación combina calidez, carácter y armonía. Las texturas suaves, la iluminación tenue y los materiales nobles invitan a la contemplación y al descanso. Ideal para quienes valoran el arte en todas sus formas, desde lo visual hasta lo sensorial.",
       people: "2 personas",
       features: [
         { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "Cama matrimonial" },
@@ -58,14 +64,20 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         { icon: <Maximize className="w-5 h-5 text-amber-800" />, text: "30m² de espacio" },
       ],
       amenities: [
-        "Desayuno romántico en la habitación",
-        "Botella de vino de bienvenida",
-        "Acceso al spa y área de relajación",
-        "Cena romántica bajo las estrellas",
+        "Cama hecha con sábanas de algodón y almohadas mullidas",
+        "Toallas de cuerpo y manos",
+        "Secador de pelo",
+        "Shampoo, acondicionador y jabón líquido de cortesía",
+        "Calefacción por radiador",
+        "Baño privado con ducha",
+        "Cerradura electrónica con código personalizado",
+        "Vista al limonero del jardín",
+        "WiFi gratuito de alta velocidad",
+        "Secado de pelo",
       ],
       images: [
         "/images/24.jpeg?height=300&width=300",
-        "/images/24.jpeg?height=300&width=300",
+        "/images/2-bano.jpeg?height=300&width=300",
         "/images/rana1.jpeg?height=300&width=300",
         "/images/rana2.jpeg?height=300&width=300",
       ],
@@ -73,7 +85,7 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         {
       title: "Armadillo",
       description:
-        "Nuestra suite familiar es el espacio perfecto para familias que buscan comodidad y amplitud. Con 45m² de superficie, cuenta con dos ambientes separados que garantizan privacidad y confort para todos los miembros de la familia.",
+        "Inspirada en los trabajos de Beatriz Orosco, esta habitación lleva el nombre del lagarto, criatura ligada al sol, al calor de la tierra y al arte de moverse con pausa y precisión. Como en sus obras, donde los colores y las formas remiten a la naturaleza viva, esta habitación es un espacio de contemplación y equilibrio. La calidez de la madera, la luz que atraviesa suavemente el ambiente y los detalles rústicos invitan a conectar con uno mismo, como lo haría un lagarto al sol. Un refugio sereno, donde el tiempo se estira y la mente respira.",
       people: "2 personas",
       features: [
         { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas dobles" },
@@ -81,17 +93,23 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Vista al jardín" },
         { icon: <Maximize className="w-5 h-5 text-amber-800" />, text: "45m² de espacio" },
       ],
-      amenities: [
-        "Desayuno continental para toda la familia",
+     amenities: [
+        "Cama hecha con sábanas de algodón y almohadas mullidas",
+        "Toallas de cuerpo y manos",
+        "Secador de pelo",
+        "Shampoo, acondicionador y jabón líquido de cortesía",
+        "Calefacción por radiador",
+        "Baño privado con ducha",
+        "Cerradura electrónica con código personalizado",
+        "Vista al limonero del jardín",
         "WiFi gratuito de alta velocidad",
-        "Área de juegos para niños",
-        "Acceso a todas las actividades familiares",
+        "Secado de pelo",
       ],
       images: [
         "/images/17.jpeg?height=300&width=300",
         "/images/16.jpeg?height=300&width=300",
-        "/images/17.jpeg?height=300&width=300",
-        "/images/16.jpeg?height=300&width=300",
+        "/images/3-bano.jpeg?height=300&width=300",
+        "/images/3-placard.jpeg?height=300&width=300",
       ],
     },
     {
@@ -101,19 +119,23 @@ export default function Rooms({ handleBooking }: RoomsProps) {
       people: "2 personas",
       features: [
         { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "Cama matrimonial" },
-        { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño con jacuzzi" },
         { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Balcón privado" },
-        { icon: <Maximize className="w-5 h-5 text-amber-800" />, text: "30m² de espacio" },
       ],
       amenities: [
-        "Desayuno romántico en la habitación",
-        "Botella de vino de bienvenida",
-        "Acceso al spa y área de relajación",
-        "Cena romántica bajo las estrellas",
+        "Cama hecha con sábanas de algodón y almohadas mullidas",
+        "Toallas de cuerpo y manos",
+        "Secador de pelo",
+        "Shampoo, acondicionador y jabón líquido de cortesía",
+        "Calefacción por radiador",
+        "Baño privado con ducha",
+        "Cerradura electrónica con código personalizado",
+        "Balcon privado",
+        "WiFi gratuito de alta velocidad",
+        "Secado de pelo",
       ],
       images: [
         "/images/22.jpeg",
-        "/images/22.jpeg",
+        "/images/4-bano.jpeg",
         "/images/lagarto1.jpeg",
         "/images/lagarto2.jpeg",
       ],
