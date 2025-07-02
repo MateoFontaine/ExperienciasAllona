@@ -70,15 +70,15 @@ export default function Footer({ scrollToSection }: FooterProps) {
           <div>
             <h3 className="font-semibold mb-4">Contacto</h3>
             <ul className="space-y-2 text-stone-400">
-              <li>+56 9 1234 5678</li>
-              <li>info@experienciasallona.cl</li>
-              <li>Región de Valparaíso, Chile</li>
+              <li>+56 2267 533950</li>
+              <li><a href="https://www.instagram.com/experiencias.allona/?hl=es-la">@experiencias.allona</a></li>
+              <li>Pinamar, Argentina</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-stone-800 mt-8 pt-8 text-center text-stone-400">
-          <p>&copy; 2024 ExperienciasAllona. Todos los derechos reservados.</p>
+          <p>&copy; 2025 ExperienciasAllona. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

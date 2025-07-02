@@ -133,7 +133,7 @@ export default function ExperienciasAllona() {
 
       <Services />
 
-      <TestimonialsCarousel />
+   
 
       <Contact sendWhatsAppMessage={sendWhatsAppMessage} />
 

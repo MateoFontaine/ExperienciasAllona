@@ -71,7 +71,6 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Calefacción por radiador",
         "Baño privado con ducha",
         "Cerradura electrónica con código personalizado",
-        "Vista al limonero del jardín",
         "WiFi gratuito de alta velocidad",
         "Secado de pelo",
       ],
@@ -101,7 +100,6 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Calefacción por radiador",
         "Baño privado con ducha",
         "Cerradura electrónica con código personalizado",
-        "Vista al limonero del jardín",
         "WiFi gratuito de alta velocidad",
         "Secado de pelo",
       ],
@@ -205,12 +203,13 @@ export default function Rooms({ handleBooking }: RoomsProps) {
                 {room.images.map((image, imageIndex) => (
                   <div key={imageIndex} className="relative group cursor-pointer" onClick={() => openModal(image)}>
                     <Image
-                      src={image || "/placeholder.svg"}
-                      alt={`${room.title} - Vista ${imageIndex + 1}`}
-                      width={1000}
-                      height={1000}
-                      className="rounded-lg shadow-lg object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
+  src={image || "/placeholder.svg"}
+  alt={`${room.title} - Vista ${imageIndex + 1}`}
+  width={1000}
+  height={900}
+  className="rounded-lg shadow-lg object-cover w-full h-[220px] group-hover:scale-105 transition-transform duration-300"
+/>
+
                     
                   </div>
                 ))}

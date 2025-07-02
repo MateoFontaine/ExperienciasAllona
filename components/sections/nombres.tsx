@@ -49,6 +49,8 @@ export default function Experiences() {
 
   return (
     <section id="experiencias" className="py-20 bg-stone-100">
+
+      <hr className="mb-16"/>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-stone-800 mb-6">Esencias</h2>

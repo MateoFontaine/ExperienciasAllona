@@ -5,7 +5,6 @@ export default function Services() {
   const services = [
     { icon: <Wifi className="w-8 h-8" />, title: "WiFi Gratuito", description: "Internet de alta velocidad" },
     { icon: <Coffee className="w-8 h-8" />, title: "Desayuno", description: "Desayuno casero incluido" },
-    { icon: <MapPin className="w-8 h-8" />, title: "Tours Guiados", description: "Conoce los mejores lugares" },
     { icon: <Mountain className="w-8 h-8" />, title: "Actividades", description: "Experiencias únicas" },
   ]
 
@@ -18,7 +17,7 @@ export default function Services() {
           <p className="text-stone-600 text-lg max-w-2xl mx-auto">Servicios pensados para hacer tu estadía perfecta</p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="text-center group">
               <div className="bg-stone-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:bg-amber-800 group-hover:text-white transition-colors duration-300">
