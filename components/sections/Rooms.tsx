@@ -111,9 +111,9 @@ export default function Rooms({ handleBooking }: RoomsProps) {
       ],
     },
     {
-      title: "Lagarto",
+      title: "Yacaré",
       description:
-        "Perfecta para parejas que buscan un ambiente romántico y acogedor. Con 30m² de elegancia y confort, esta habitación ofrece la combinación ideal entre intimidad y lujo, con vistas espectaculares desde su balcón privado.",
+        "El yacaré habita los humedales con la calma de quien conoce el tiempo. Su andar lento y su mirada atenta nos enseñan a observar, a esperar. Símbolo de equilibrio y fuerza serena, inspira esta habitación pensada para descansar en silencio, en paz, en esencia.",
       people: "2 personas",
       features: [
         { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "Cama matrimonial" },
