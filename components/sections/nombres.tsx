@@ -30,7 +30,7 @@ export default function Experiences() {
       icon: "",
     },
     {
-      title: "Lagarto",
+      title: "Yacaré",
       description: "",
       image: "/images/lagarto.jpeg?height=300&width=400",
       icon: "",
