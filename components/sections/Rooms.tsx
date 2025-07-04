@@ -84,7 +84,7 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         {
       title: "Armadillo",
       description:
-        "Inspirada en los trabajos de Beatriz Orosco, esta habitación lleva el nombre del lagarto, criatura ligada al sol, al calor de la tierra y al arte de moverse con pausa y precisión. Como en sus obras, donde los colores y las formas remiten a la naturaleza viva, esta habitación es un espacio de contemplación y equilibrio. La calidez de la madera, la luz que atraviesa suavemente el ambiente y los detalles rústicos invitan a conectar con uno mismo, como lo haría un lagarto al sol. Un refugio sereno, donde el tiempo se estira y la mente respira.",
+        "Inspirada en los trabajos de Beatriz Orosco, esta habitación lleva el nombre del armadillo, criatura ligada al sol, al calor de la tierra y al arte de moverse con pausa y precisión. Como en sus obras, donde los colores y las formas remiten a la naturaleza viva, esta habitación es un espacio de contemplación y equilibrio. La calidez de la madera, la luz que atraviesa suavemente el ambiente y los detalles rústicos invitan a conectar con uno mismo, como lo haría un lagarto al sol. Un refugio sereno, donde el tiempo se estira y la mente respira.",
       people: "2 personas",
       features: [
         { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas dobles" },
