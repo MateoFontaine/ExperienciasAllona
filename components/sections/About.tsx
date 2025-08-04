@@ -25,7 +25,7 @@ Hoy creemos que es esta belleza de lo que nos rodea viene a hacernos preguntas, 
                 <div className="text-stone-600">Huéspedes Satisfechos</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-amber-800">4.9</div>
+                <div className="text-3xl font-bold text-amber-800">8.5</div>
                 <div className="text-stone-600">Calificación Promedio</div>
               </div>
             </div>

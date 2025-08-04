@@ -29,7 +29,7 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Inspirada en la obra de Beatriz Orosco, esta habitación rinde homenaje a su universo de peces coloridos, símbolo de libertad, fluidez y vida. Cada detalle está pensado para transmitir esa misma sensación de movimiento sereno y armonía visual que evocan sus creaciones. Los tonos suaves, la luz natural que se filtra por las cortinas y la calidez de los materiales generan un entorno acogedor, ideal para relajarse y reconectar. Como en las obras de Orosco, donde el color y la forma dialogan en equilibrio, esta habitación invita a sumergirse en una experiencia estética y placentera.",
       people: "2 personas",
       features: [
-        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas simple o una doble" },
+        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas twin o 1 king" },
         { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño privado" },
         { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Vista al jardín" },
       ],
@@ -39,16 +39,14 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Secador de pelo",
         "Shampoo, acondicionador y jabón líquido de cortesía",
         "Calefacción por radiador",
-        "Baño privado con ducha",
         "Cerradura electrónica con código personalizado",
-        "Vista al limonero del jardín",
-        "WiFi gratuito de alta velocidad",
-        "Secado de pelo",
+        "Vista al limonero",
+        "WiFi gratuito de alta velocidad"
       ],
       images: [
-        "/images/13.jpeg?height=300&width=300",
         "/images/1-camaPlacard.jpeg?height=300&width=300",
-        "/images/15.jpeg?height=300&width=300",
+        "/images/22.jpeg",
+        "/images/lagarto1.jpeg",
         "/images/1-bano.jpeg?height=300&width=300",
       ],
     },
@@ -58,10 +56,8 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Esta habitación toma su nombre en homenaje a una artista plástica que encontraba en las ranas su inspiración constante. Un símbolo de transformación, naturaleza y serenidad, que se refleja en cada detalle del espacio. Al igual que en las obras de Orozco, donde la fuerza de lo humano se expresa en los trazos, esta habitación combina calidez, carácter y armonía. Las texturas suaves, la iluminación tenue y los materiales nobles invitan a la contemplación y al descanso. Ideal para quienes valoran el arte en todas sus formas, desde lo visual hasta lo sensorial.",
       people: "2 personas",
       features: [
-        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "Cama matrimonial" },
-        { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño con jacuzzi" },
-        { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Balcón privado" },
-        { icon: <Maximize className="w-5 h-5 text-amber-800" />, text: "30m² de espacio" },
+        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas twin o 1 king" },
+        { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño privado" }
       ],
       amenities: [
         "Cama hecha con sábanas de algodón y almohadas mullidas",
@@ -69,28 +65,25 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Secador de pelo",
         "Shampoo, acondicionador y jabón líquido de cortesía",
         "Calefacción por radiador",
-        "Baño privado con ducha",
         "Cerradura electrónica con código personalizado",
-        "WiFi gratuito de alta velocidad",
-        "Secado de pelo",
+        "WiFi gratuito de alta velocidad"
       ],
       images: [
         "/images/24.jpeg?height=300&width=300",
-        "/images/2-bano.jpeg?height=300&width=300",
         "/images/rana1.jpeg?height=300&width=300",
         "/images/rana2.jpeg?height=300&width=300",
+        "/images/2-bano.jpeg?height=300&width=300",
       ],
     },
         {
       title: "Armadillo",
       description:
-        "Inspirada en los trabajos de Beatriz Orosco, esta habitación lleva el nombre del armadillo, criatura ligada al sol, al calor de la tierra y al arte de moverse con pausa y precisión. Como en sus obras, donde los colores y las formas remiten a la naturaleza viva, esta habitación es un espacio de contemplación y equilibrio. La calidez de la madera, la luz que atraviesa suavemente el ambiente y los detalles rústicos invitan a conectar con uno mismo, como lo haría un lagarto al sol. Un refugio sereno, donde el tiempo se estira y la mente respira.",
+        "Inspirada en el armadillo, esta habitación evoca calma, protección y conexión con la tierra. Este animal de caparazón firme y andar sereno simboliza el equilibrio entre resguardo e introspección. La calidez de la madera, los tonos tierra y la luz suave crean un ambiente que invita al descanso profundo y al silencio interior. Cada detalle —rústico, orgánico y sobrio— acompaña al visitante a moverse con pausa, habitar el presente y reconectar con su centro. Un espacio pensado para respirar lento, como el armadillo al sol.",
       people: "2 personas",
       features: [
-        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas dobles" },
+        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas twin o 1 king" },
         { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño privado" },
-        { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Vista al jardín" },
-        { icon: <Maximize className="w-5 h-5 text-amber-800" />, text: "45m² de espacio" },
+        { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Vista al jardín" }
       ],
      amenities: [
         "Cama hecha con sábanas de algodón y almohadas mullidas",
@@ -98,16 +91,14 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Secador de pelo",
         "Shampoo, acondicionador y jabón líquido de cortesía",
         "Calefacción por radiador",
-        "Baño privado con ducha",
         "Cerradura electrónica con código personalizado",
         "WiFi gratuito de alta velocidad",
-        "Secado de pelo",
       ],
       images: [
         "/images/17.jpeg?height=300&width=300",
         "/images/16.jpeg?height=300&width=300",
-        "/images/3-bano.jpeg?height=300&width=300",
-        "/images/3-placard.jpeg?height=300&width=300",
+        "/images/HabitacionArmadillo.jpeg?height=300&width=300",
+        "/images/4-bano.jpeg?height=300&width=300",
       ],
     },
     {
@@ -116,8 +107,8 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "El yacaré habita los humedales con la calma de quien conoce el tiempo. Su andar lento y su mirada atenta nos enseñan a observar, a esperar. Símbolo de equilibrio y fuerza serena, inspira esta habitación pensada para descansar en silencio, en paz, en esencia.",
       people: "2 personas",
       features: [
-        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "Cama matrimonial" },
-        { icon: <Eye className="w-5 h-5 text-amber-800" />, text: "Balcón privado" },
+        { icon: <Bed className="w-5 h-5 text-amber-800" />, text: "2 camas twin o 1 king" },
+        { icon: <Bath className="w-5 h-5 text-amber-800" />, text: "Baño privado" }
       ],
       amenities: [
         "Cama hecha con sábanas de algodón y almohadas mullidas",
@@ -125,17 +116,15 @@ export default function Rooms({ handleBooking }: RoomsProps) {
         "Secador de pelo",
         "Shampoo, acondicionador y jabón líquido de cortesía",
         "Calefacción por radiador",
-        "Baño privado con ducha",
         "Cerradura electrónica con código personalizado",
         "Balcon privado",
-        "WiFi gratuito de alta velocidad",
-        "Secado de pelo",
+        "WiFi gratuito de alta velocidad"
       ],
       images: [
-        "/images/22.jpeg",
-        "/images/4-bano.jpeg",
-        "/images/lagarto1.jpeg",
-        "/images/lagarto2.jpeg",
+        "/images/13.jpeg",
+        "/images/14.jpeg",
+        "/images/3.jpg",
+        "/images/3-bano.jpeg",
       ],
     },
   ]

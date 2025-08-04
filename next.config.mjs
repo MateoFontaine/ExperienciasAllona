@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // 👈 esta línea permite exportar el sitio como HTML
-
+  output: 'export',
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,7 +9,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // 👈 necesario para exportar imágenes en modo estático
+    unoptimized: true,
+    domains: ['localhost'],
   },
 }
 

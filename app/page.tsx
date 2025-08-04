@@ -14,6 +14,7 @@ import Contact from "@/components/sections/Contact"
 import Footer from "@/components/sections/Footer"
 import WhatsAppWidget from "@/components/WhatsAppWidget"
 import Nombres from "@/components/sections/nombres"
+import Breakfast from "@/components/sections/breakfast"
 
 export default function ExperienciasAllona() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -40,8 +41,7 @@ export default function ExperienciasAllona() {
     "/images/11.jpg?height=600&width=1200",
     "/images/7.jpg?height=600&width=1200",
     "/images/8.jpg?height=600&width=1200",
-    "/images/9.jpg?height=600&width=1200",
-    "/images/10.jpg?height=600&width=1200",
+    "/images/9.jpg?height=600&width=1200"
   ]
 
   // Función para enviar mensaje a WhatsApp
@@ -117,7 +117,7 @@ export default function ExperienciasAllona() {
         setCurrentSlide={setCurrentSlide}
         handleBooking={handleBooking}
       />
-
+      <Breakfast />
       <About />
       <AboutOroscco />
       <Experiences />
