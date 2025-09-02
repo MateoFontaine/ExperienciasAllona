@@ -78,7 +78,7 @@ export default function Footer({ scrollToSection }: FooterProps) {
         </div>
 
         <div className="border-t border-stone-800 mt-8 pt-8 text-center text-stone-400">
-          <p>&copy; 2025 ExperienciasAllona. Todos los derechos reservados.</p>
+          <p>&copy; 2025 ExperienciasAllona | Todos los derechos reservados | hecho por <a className="text-blue-600" href="https://www.instagram.com/codela.estudio/?hl=es-la">Codela</a></p>
         </div>
       </div>
     </footer>

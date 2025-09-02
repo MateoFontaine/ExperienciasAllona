@@ -20,7 +20,7 @@ export default function ExperienciasAllona() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [currentGalleryImage, setCurrentGalleryImage] = useState(0)
-  const whatsappNumber = "2267533950"
+  const whatsappNumber = "2254525040"
 
   const heroImages = [
     "/images/1.jpg?height=600&width=1200",

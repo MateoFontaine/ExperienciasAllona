@@ -24,7 +24,7 @@
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 mr-3 text-amber-400" />
-                  <span>+56 2267 533950</span>
+                  <span>+56  2254 525040</span>
                 </div>
               {/*  <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-amber-400" />
@@ -101,7 +101,7 @@
 
     const texto = `Hola! Me contacto desde la web:\n\n👤 Nombre: ${nombre} ${apellido}\n📧 Email: ${email}\n📱 Teléfono: ${telefono}\n📝 Mensaje: ${mensaje}`
 
-    const url = `https://wa.me/542267533950?text=${encodeURIComponent(texto)}`
+    const url = `https://wa.me/2254525040?text=${encodeURIComponent(texto)}`
     window.open(url, "_blank")
   }}
 >
